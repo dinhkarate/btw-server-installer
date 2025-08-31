@@ -19,6 +19,10 @@ Copy and paste into your terminal:
 sudo apt update
 sudo apt install openjdk-17-jre -y
 
+sudo ufw allow 25565/tcp
+sudo ufw allow 25565/udp
+sudo ufw reload
+
 curl -o legacy.jar "https://repo.legacyfabric.net/legacyfabric/net/legacyfabric/fabric-installer/1.1.0/fabric-installer-1.1.0.jar"
 java -jar legacy.jar server -mcversion 1.6.4 -loader 0.15.11 -downloadMinecraft
 
