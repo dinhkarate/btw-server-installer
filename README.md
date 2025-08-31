@@ -6,8 +6,8 @@ It is designed for Linux distributions that use the `apt` package manager (e.g.,
 
 **Not for client installation**  
 If you are looking for client installation instructions, please see:  
-- [link a](https://wiki.btwce.com/index.php?title=3.0.0_Beta)  
-- [link b](https://github.com/GencoreOperative/btw-installer)
+- [Wiki BTWCE](https://wiki.btwce.com/index.php?title=3.0.0_Beta)  
+- [BTW Installer](https://github.com/GencoreOperative/btw-installer)
 
 ---
 
@@ -23,7 +23,7 @@ curl -o legacy.jar "https://repo.legacyfabric.net/legacyfabric/net/legacyfabric/
 java -jar legacy.jar server -mcversion 1.6.4 -loader 0.15.11 -downloadMinecraft
 
 mkdir -p mods
-curl -L -o mods/btw-fabric-3.0.0-beta-snapshot-5.jar   "https://github.com/dinhkarate/btw-server-installer/releases/download/v3.0.0-beta-snapshot.5/btw-fabric-3.0.0-beta-snapshot-5.jar"
+curl -L -o mods/btw-fabric-3.0.0-beta-snapshot-5.jar "https://github.com/dinhkarate/btw-server-installer/releases/download/v3.0.0-beta-snapshot.5/btw-fabric-3.0.0-beta-snapshot-5.jar"
 
 cat > start.sh <<'EOF'
 #!/bin/bash
@@ -44,7 +44,7 @@ Place additional `.jar` files in the `mods/` folder. Some community mods can be 
 For example, **[Dynamic Lights](https://github.com/BTW-Community/Dynamic-Lights-3):**
 
 ```bash
-curl -L -o mods/dynamiclights-1.2.0.jar   "https://github.com/BTW-Community/Dynamic-Lights-3/releases/download/3.0/dynamiclights-1.2.0.jar"
+curl -L -o mods/dynamiclights-1.2.0.jar "https://github.com/BTW-Community/Dynamic-Lights-3/releases/download/3.0/dynamiclights-1.2.0.jar"
 ```
 
 ---
@@ -57,9 +57,3 @@ The mod files are only mirrored here on GitHub for **convenience of download and
 
 If you enjoy the mod, please support the original developer here:  
 👉 [Official Better Than Wolves Discord](https://discord.com/invite/fhMK5kx)
-
----
-
-## License
-
-MIT License
