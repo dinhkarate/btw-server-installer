@@ -1,7 +1,7 @@
 # BTW Server Installer
 
 **Purpose**  
-This repository is **only for server installation** of the Better Than Wolves mod.  
+This repository is **only for linux server installation** of the Better Than Wolves mod.  
 It is designed for Linux distributions that use the `apt` package manager (e.g., Debian, Ubuntu, and derivatives).
 
 **Not for client installation**  
